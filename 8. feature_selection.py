@@ -45,7 +45,7 @@ for i, feature in enumerate(x.columns):
 ranked_features
 ranked_features.to_csv("./feature_selection/feature_ranking_by_rfe_vif41.csv")
 #----------------------------------------------------------------------------------
-# Principle Component Analysis
+# Principal Component Analysis
 #----------------------------------------------------------------------------------
 from sklearn.decomposition import PCA
 
